@@ -1,7 +1,7 @@
 # Portfolio Website
 
 ## Built with React
-
-![cover](/%PUBLIC_URL%/img/cover.png)
+Horizontal scrolling gallery
+![cover](/img/cover.png)
 
 @ Shiyi Peng
