@@ -1,0 +1,60 @@
+@media only screen and (max-width: 560px) {
+.Project {
+    width: 100%;
+}
+
+.Project .image-container {
+    width: 100%;
+}
+}
+
+.Project {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 42vh;
+    height: 32vh;
+    margin: 0 1rem 0 1rem;
+    transition: 0.7s ease-in-out;
+    -webkit-transition: 0.7s ease-in-out;
+}
+
+.Project:hover {
+    height: 34vh;
+}
+
+.Project .image-container {
+    width: 42vh;
+    height: 32vh;
+    margin-top: 1.2rem;
+    transition: 0.7s ease-in-out;
+    -webkit-transition: 0.7s ease-in-out;
+}
+
+.Project h2 {
+    /* margin-bottom: 3rem; */
+    font-size: 0.85rem;
+    font-weight: 400;
+    color: #5f5e5e;
+}
+
+.Project-information {
+    display: flex;
+    justify-content: center;
+    width: 85%;
+}
+
+.image-container:hover {
+    height: 34vh;
+}
+
+.image-container:hover .Project-information {
+    top: 57.5%;
+    justify-content: center;
+}
+
+.Project-information p {
+    font-size: .88rem;
+    font-weight: 300;
+    line-height: 1rem;
+}

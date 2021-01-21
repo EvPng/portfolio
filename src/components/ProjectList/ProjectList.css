@@ -1,0 +1,31 @@
+.ScrollContainer {
+  display: flex;
+  position: relative;
+  flex-flow: row nowrap;
+  align-items: baseline;
+  width: 82.25vw;
+  height: 36vh;
+  margin: 20em 0 0 0;
+  overflow: visible;
+}
+
+/* .ScrollContainer p {
+  color: #5f5e5e;
+  font-weight: 400;
+} */
+
+.ProjectList {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-flow: row nowrap;
+    flex: 1;
+    width: 100%;
+    height: 36vh;
+    overflow: visible;
+}
+
+.horizontalScroll {
+  overflow: visible;
+}
